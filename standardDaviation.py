@@ -24,5 +24,6 @@ def mean(data):
 	return avg
 
 print SD(d)
+print mean(d)
 	
 
