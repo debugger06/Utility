@@ -1,3 +1,4 @@
+#important tools for statistical calculation
 import math
 f = open('input.txt','r')
 data = f.readlines()
