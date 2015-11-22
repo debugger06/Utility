@@ -7,16 +7,19 @@ from matplotlib import style
 style.use('ggplot')
 
 
-mn = np.zeros(100)
-for i in range(1,100):
+mn = np.zeros(1000)
+for i in range(1,1000):
 
 	count = 0
 
 	for j in range(1,i):
 		a = random.randint(1,6)
-		if a = 1:
-			count++
-	average = count/if
-	mn[i]=average
+		if a == 1:
+			count = count + 1
 
+	average = float(count)/float(i)
+	mn[i]=average
+print mn
+fig = plt.figure()
 plt.plot(mn)
+fig.savefig('temp.png', dpi=fig.dpi)
