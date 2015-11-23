@@ -7,8 +7,8 @@ from matplotlib import style
 style.use('ggplot')
 
 
-mn = np.zeros(1000)
-for i in range(1,1000):
+mn = np.zeros(100000)
+for i in range(1,100000):
 
 	count = 0
 
